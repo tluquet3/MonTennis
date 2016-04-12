@@ -146,10 +146,10 @@ class PalmaresTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         var title = ""
         if(section == 0){
-            title = "Victoires"
+            title = "Victoires ("+String(barCtrl.user.victoires.count)+")"
         }
         else if(section == 1){
-            title = "Défaites"
+            title = "Défaites ("+String(barCtrl.user.defaites.count)+")"
         }
         return title
     }
