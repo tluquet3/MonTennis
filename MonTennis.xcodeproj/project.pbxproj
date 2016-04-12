@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71C300B1B439AB8007E7BC6 /* Terre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A71C300A1B439AB8007E7BC6 /* Terre.jpg */; };
+		A71C300E1B43D8EE007E7BC6 /* ModifierMatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C300D1B43D8EE007E7BC6 /* ModifierMatchController.swift */; };
+		A71C30101B463C56007E7BC6 /* ModifierTextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C300F1B463C56007E7BC6 /* ModifierTextController.swift */; };
+		A71C30121B4641DB007E7BC6 /* ModifierChoixController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C30111B4641DB007E7BC6 /* ModifierChoixController.swift */; };
+		A71C30141B46822F007E7BC6 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71C30131B46822F007E7BC6 /* images.xcassets */; };
+		A71C30161B4A78E8007E7BC6 /* ClubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C30151B4A78E8007E7BC6 /* ClubTableViewController.swift */; };
+		A721B54F1B15BB88006F7BB8 /* PalmaresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721B54E1B15BB88006F7BB8 /* PalmaresTableViewController.swift */; };
+		A721B5511B18AB5C006F7BB8 /* CustomHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721B5501B18AB5B006F7BB8 /* CustomHeaderCell.swift */; };
+		A721B5541B1AB2F1006F7BB8 /* MonTennis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A721B5521B1AB2F1006F7BB8 /* MonTennis.xcdatamodeld */; };
+		A721B5581B1DC44F006F7BB8 /* SimulationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721B5571B1DC44F006F7BB8 /* SimulationTableViewController.swift */; };
+		A721B55A1B1DD0F5006F7BB8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721B5591B1DD0F5006F7BB8 /* TabBarController.swift */; };
+		A721B55C1B1DED94006F7BB8 /* FuturClassementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721B55B1B1DED94006F7BB8 /* FuturClassementCell.swift */; };
+		A735DE151B0DE81300ED6042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735DE141B0DE81300ED6042 /* AppDelegate.swift */; };
+		A735DE211B0DE81300ED6042 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A735DE1F1B0DE81300ED6042 /* LaunchScreen.xib */; };
+		A735DE2D1B0DE81300ED6042 /* MonTennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735DE2C1B0DE81300ED6042 /* MonTennisTests.swift */; };
+		A735DE371B0DEA4F00ED6042 /* Utilisateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735DE361B0DEA4F00ED6042 /* Utilisateur.swift */; };
+		A735DE391B0DEC6100ED6042 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735DE381B0DEC6100ED6042 /* Match.swift */; };
+		A735DE3B1B0E320500ED6042 /* Classement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735DE3A1B0E320500ED6042 /* Classement.swift */; };
+		A736D70B1CBD08D8001D8079 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = A736D70A1CBD08D8001D8079 /* iRate.m */; };
+		A75E714B1CBCDAA300F3E3E0 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A75E71481CBCDAA300F3E3E0 /* iRate.bundle */; };
+		A763D3CD1B390FDF00ED7398 /* DetailCalculCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763D3CC1B390FDF00ED7398 /* DetailCalculCell.swift */; };
+		A7987D4C1B121A890023CB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7987D4A1B121A890023CB0D /* Main.storyboard */; };
+		A7987D4E1B12274B0023CB0D /* AjoutMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7987D4D1B12274B0023CB0D /* AjoutMatchViewController.swift */; };
+		A7DC9A9D1B428B27003B8A6C /* ProfilePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A9C1B428B27003B8A6C /* ProfilePictureCell.swift */; };
+		A7DC9A9F1B428B85003B8A6C /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A9E1B428B85003B8A6C /* ProfileController.swift */; };
+		A7DC9AA71B42CA74003B8A6C /* ChangeSexeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AA61B42CA74003B8A6C /* ChangeSexeController.swift */; };
+		A7DC9AA91B42D101003B8A6C /* PrenomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AA81B42D101003B8A6C /* PrenomTableViewController.swift */; };
+		A7DC9AAB1B42D77A003B8A6C /* NomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AAA1B42D77A003B8A6C /* NomTableViewController.swift */; };
+		A7DC9AAD1B42DCF2003B8A6C /* ClassementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AAC1B42DCF2003B8A6C /* ClassementTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A735DE271B0DE81300ED6042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A735DE071B0DE81300ED6042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A735DE0E1B0DE81300ED6042;
+			remoteInfo = MonTennis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A71C300A1B439AB8007E7BC6 /* Terre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Terre.jpg; path = Images/Terre.jpg; sourceTree = "<group>"; };
+		A71C300D1B43D8EE007E7BC6 /* ModifierMatchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModifierMatchController.swift; path = Palmares/ModifierMatchController.swift; sourceTree = "<group>"; };
+		A71C300F1B463C56007E7BC6 /* ModifierTextController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModifierTextController.swift; path = Palmares/ModifierTextController.swift; sourceTree = "<group>"; };
+		A71C30111B4641DB007E7BC6 /* ModifierChoixController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModifierChoixController.swift; path = Palmares/ModifierChoixController.swift; sourceTree = "<group>"; };
+		A71C30131B46822F007E7BC6 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		A71C30151B4A78E8007E7BC6 /* ClubTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubTableViewController.swift; path = Profile/ClubTableViewController.swift; sourceTree = "<group>"; };
+		A721B54E1B15BB88006F7BB8 /* PalmaresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PalmaresTableViewController.swift; path = Palmares/PalmaresTableViewController.swift; sourceTree = "<group>"; };
+		A721B5501B18AB5B006F7BB8 /* CustomHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomHeaderCell.swift; path = Palmares/CustomHeaderCell.swift; sourceTree = "<group>"; };
+		A721B5531B1AB2F1006F7BB8 /* MonTennis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonTennis.xcdatamodel; sourceTree = "<group>"; };
+		A721B5571B1DC44F006F7BB8 /* SimulationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationTableViewController.swift; path = Simulation/SimulationTableViewController.swift; sourceTree = "<group>"; };
+		A721B5591B1DD0F5006F7BB8 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = Base.lproj/TabBarController.swift; sourceTree = "<group>"; };
+		A721B55B1B1DED94006F7BB8 /* FuturClassementCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuturClassementCell.swift; path = Simulation/FuturClassementCell.swift; sourceTree = "<group>"; };
+		A735DE0F1B0DE81300ED6042 /* MonTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A735DE131B0DE81300ED6042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A735DE141B0DE81300ED6042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Base.lproj/AppDelegate.swift; sourceTree = "<group>"; };
+		A735DE201B0DE81300ED6042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A735DE261B0DE81300ED6042 /* MonTennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonTennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A735DE2B1B0DE81300ED6042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A735DE2C1B0DE81300ED6042 /* MonTennisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTennisTests.swift; sourceTree = "<group>"; };
+		A735DE361B0DEA4F00ED6042 /* Utilisateur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilisateur.swift; path = Model/Utilisateur.swift; sourceTree = "<group>"; };
+		A735DE381B0DEC6100ED6042 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Model/Match.swift; sourceTree = "<group>"; };
+		A735DE3A1B0E320500ED6042 /* Classement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Classement.swift; path = Model/Classement.swift; sourceTree = "<group>"; };
+		A736D7091CBD08D8001D8079 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = MonTennis/iRate/iRate.h; sourceTree = "<group>"; };
+		A736D70A1CBD08D8001D8079 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = MonTennis/iRate/iRate.m; sourceTree = "<group>"; };
+		A75E71481CBCDAA300F3E3E0 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = MonTennis/iRate/iRate.bundle; sourceTree = "<group>"; };
+		A763D3CC1B390FDF00ED7398 /* DetailCalculCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailCalculCell.swift; path = Simulation/DetailCalculCell.swift; sourceTree = "<group>"; };
+		A7987D4B1B121A890023CB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7987D4D1B12274B0023CB0D /* AjoutMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AjoutMatchViewController.swift; path = Palmares/AjoutMatchViewController.swift; sourceTree = "<group>"; };
+		A7DC9A9C1B428B27003B8A6C /* ProfilePictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilePictureCell.swift; path = Profile/ProfilePictureCell.swift; sourceTree = "<group>"; };
+		A7DC9A9E1B428B85003B8A6C /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = Profile/ProfileController.swift; sourceTree = "<group>"; };
+		A7DC9AA61B42CA74003B8A6C /* ChangeSexeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangeSexeController.swift; path = Profile/ChangeSexeController.swift; sourceTree = "<group>"; };
+		A7DC9AA81B42D101003B8A6C /* PrenomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrenomTableViewController.swift; path = Profile/PrenomTableViewController.swift; sourceTree = "<group>"; };
+		A7DC9AAA1B42D77A003B8A6C /* NomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NomTableViewController.swift; path = Profile/NomTableViewController.swift; sourceTree = "<group>"; };
+		A7DC9AAC1B42DCF2003B8A6C /* ClassementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassementTableViewController.swift; path = Profile/ClassementTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A735DE0C1B0DE81300ED6042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A735DE231B0DE81300ED6042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71C300C1B439B34007E7BC6 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				A71C300A1B439AB8007E7BC6 /* Terre.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		A735DE061B0DE81300ED6042 = {
+			isa = PBXGroup;
+			children = (
+				A735DE111B0DE81300ED6042 /* MonTennis */,
+				A735DE291B0DE81300ED6042 /* MonTennisTests */,
+				A735DE101B0DE81300ED6042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A735DE101B0DE81300ED6042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A735DE0F1B0DE81300ED6042 /* MonTennis.app */,
+				A735DE261B0DE81300ED6042 /* MonTennisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A735DE111B0DE81300ED6042 /* MonTennis */ = {
+			isa = PBXGroup;
+			children = (
+				A736D70C1CBD0A9F001D8079 /* AppControl */,
+				A75E714D1CBCDAB300F3E3E0 /* iRate */,
+				A763D3CB1B38EC5D00ED7398 /* Model */,
+				A763D3C91B38EC2900ED7398 /* Palmares */,
+				A763D3CA1B38EC4A00ED7398 /* Simulation */,
+				A7DC9A971B428431003B8A6C /* Profile */,
+				A7987D4A1B121A890023CB0D /* Main.storyboard */,
+				A721B5521B1AB2F1006F7BB8 /* MonTennis.xcdatamodeld */,
+				A735DE1F1B0DE81300ED6042 /* LaunchScreen.xib */,
+				A71C30131B46822F007E7BC6 /* images.xcassets */,
+				A71C300C1B439B34007E7BC6 /* Photos */,
+				A735DE121B0DE81300ED6042 /* Supporting Files */,
+			);
+			path = MonTennis;
+			sourceTree = "<group>";
+		};
+		A735DE121B0DE81300ED6042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A735DE131B0DE81300ED6042 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A735DE291B0DE81300ED6042 /* MonTennisTests */ = {
+			isa = PBXGroup;
+			children = (
+				A735DE2C1B0DE81300ED6042 /* MonTennisTests.swift */,
+				A735DE2A1B0DE81300ED6042 /* Supporting Files */,
+			);
+			path = MonTennisTests;
+			sourceTree = "<group>";
+		};
+		A735DE2A1B0DE81300ED6042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A735DE2B1B0DE81300ED6042 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A736D70C1CBD0A9F001D8079 /* AppControl */ = {
+			isa = PBXGroup;
+			children = (
+				A735DE141B0DE81300ED6042 /* AppDelegate.swift */,
+				A721B5591B1DD0F5006F7BB8 /* TabBarController.swift */,
+			);
+			name = AppControl;
+			sourceTree = "<group>";
+		};
+		A75E714D1CBCDAB300F3E3E0 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				A736D7091CBD08D8001D8079 /* iRate.h */,
+				A736D70A1CBD08D8001D8079 /* iRate.m */,
+				A75E71481CBCDAA300F3E3E0 /* iRate.bundle */,
+			);
+			name = iRate;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A763D3C91B38EC2900ED7398 /* Palmares */ = {
+			isa = PBXGroup;
+			children = (
+				A721B5501B18AB5B006F7BB8 /* CustomHeaderCell.swift */,
+				A7987D4D1B12274B0023CB0D /* AjoutMatchViewController.swift */,
+				A71C300F1B463C56007E7BC6 /* ModifierTextController.swift */,
+				A71C30111B4641DB007E7BC6 /* ModifierChoixController.swift */,
+				A721B54E1B15BB88006F7BB8 /* PalmaresTableViewController.swift */,
+				A71C300D1B43D8EE007E7BC6 /* ModifierMatchController.swift */,
+			);
+			name = Palmares;
+			sourceTree = "<group>";
+		};
+		A763D3CA1B38EC4A00ED7398 /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				A721B5571B1DC44F006F7BB8 /* SimulationTableViewController.swift */,
+				A721B55B1B1DED94006F7BB8 /* FuturClassementCell.swift */,
+				A763D3CC1B390FDF00ED7398 /* DetailCalculCell.swift */,
+			);
+			name = Simulation;
+			sourceTree = "<group>";
+		};
+		A763D3CB1B38EC5D00ED7398 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A735DE361B0DEA4F00ED6042 /* Utilisateur.swift */,
+				A735DE381B0DEC6100ED6042 /* Match.swift */,
+				A735DE3A1B0E320500ED6042 /* Classement.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7DC9A971B428431003B8A6C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A9C1B428B27003B8A6C /* ProfilePictureCell.swift */,
+				A7DC9A9E1B428B85003B8A6C /* ProfileController.swift */,
+				A7DC9AA61B42CA74003B8A6C /* ChangeSexeController.swift */,
+				A7DC9AA81B42D101003B8A6C /* PrenomTableViewController.swift */,
+				A7DC9AAA1B42D77A003B8A6C /* NomTableViewController.swift */,
+				A7DC9AAC1B42DCF2003B8A6C /* ClassementTableViewController.swift */,
+				A71C30151B4A78E8007E7BC6 /* ClubTableViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A735DE0E1B0DE81300ED6042 /* MonTennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A735DE301B0DE81300ED6042 /* Build configuration list for PBXNativeTarget "MonTennis" */;
+			buildPhases = (
+				A735DE0B1B0DE81300ED6042 /* Sources */,
+				A735DE0C1B0DE81300ED6042 /* Frameworks */,
+				A735DE0D1B0DE81300ED6042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonTennis;
+			productName = MonTennis;
+			productReference = A735DE0F1B0DE81300ED6042 /* MonTennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A735DE251B0DE81300ED6042 /* MonTennisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A735DE331B0DE81300ED6042 /* Build configuration list for PBXNativeTarget "MonTennisTests" */;
+			buildPhases = (
+				A735DE221B0DE81300ED6042 /* Sources */,
+				A735DE231B0DE81300ED6042 /* Frameworks */,
+				A735DE241B0DE81300ED6042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A735DE281B0DE81300ED6042 /* PBXTargetDependency */,
+			);
+			name = MonTennisTests;
+			productName = MonTennisTests;
+			productReference = A735DE261B0DE81300ED6042 /* MonTennisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A735DE071B0DE81300ED6042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Thomas Luquet";
+				TargetAttributes = {
+					A735DE0E1B0DE81300ED6042 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VQKSN7FYES;
+					};
+					A735DE251B0DE81300ED6042 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A735DE0E1B0DE81300ED6042;
+					};
+				};
+			};
+			buildConfigurationList = A735DE0A1B0DE81300ED6042 /* Build configuration list for PBXProject "MonTennis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A735DE061B0DE81300ED6042;
+			productRefGroup = A735DE101B0DE81300ED6042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A735DE0E1B0DE81300ED6042 /* MonTennis */,
+				A735DE251B0DE81300ED6042 /* MonTennisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A735DE0D1B0DE81300ED6042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7987D4C1B121A890023CB0D /* Main.storyboard in Resources */,
+				A71C30141B46822F007E7BC6 /* images.xcassets in Resources */,
+				A71C300B1B439AB8007E7BC6 /* Terre.jpg in Resources */,
+				A75E714B1CBCDAA300F3E3E0 /* iRate.bundle in Resources */,
+				A735DE211B0DE81300ED6042 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A735DE241B0DE81300ED6042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A735DE0B1B0DE81300ED6042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DC9A9D1B428B27003B8A6C /* ProfilePictureCell.swift in Sources */,
+				A7DC9AAB1B42D77A003B8A6C /* NomTableViewController.swift in Sources */,
+				A7987D4E1B12274B0023CB0D /* AjoutMatchViewController.swift in Sources */,
+				A71C30121B4641DB007E7BC6 /* ModifierChoixController.swift in Sources */,
+				A7DC9AA71B42CA74003B8A6C /* ChangeSexeController.swift in Sources */,
+				A71C30161B4A78E8007E7BC6 /* ClubTableViewController.swift in Sources */,
+				A721B55C1B1DED94006F7BB8 /* FuturClassementCell.swift in Sources */,
+				A71C300E1B43D8EE007E7BC6 /* ModifierMatchController.swift in Sources */,
+				A7DC9AA91B42D101003B8A6C /* PrenomTableViewController.swift in Sources */,
+				A721B5511B18AB5C006F7BB8 /* CustomHeaderCell.swift in Sources */,
+				A735DE3B1B0E320500ED6042 /* Classement.swift in Sources */,
+				A7DC9AAD1B42DCF2003B8A6C /* ClassementTableViewController.swift in Sources */,
+				A735DE151B0DE81300ED6042 /* AppDelegate.swift in Sources */,
+				A7DC9A9F1B428B85003B8A6C /* ProfileController.swift in Sources */,
+				A736D70B1CBD08D8001D8079 /* iRate.m in Sources */,
+				A735DE391B0DEC6100ED6042 /* Match.swift in Sources */,
+				A763D3CD1B390FDF00ED7398 /* DetailCalculCell.swift in Sources */,
+				A735DE371B0DEA4F00ED6042 /* Utilisateur.swift in Sources */,
+				A71C30101B463C56007E7BC6 /* ModifierTextController.swift in Sources */,
+				A721B5581B1DC44F006F7BB8 /* SimulationTableViewController.swift in Sources */,
+				A721B55A1B1DD0F5006F7BB8 /* TabBarController.swift in Sources */,
+				A721B54F1B15BB88006F7BB8 /* PalmaresTableViewController.swift in Sources */,
+				A721B5541B1AB2F1006F7BB8 /* MonTennis.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A735DE221B0DE81300ED6042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A735DE2D1B0DE81300ED6042 /* MonTennisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A735DE281B0DE81300ED6042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A735DE0E1B0DE81300ED6042 /* MonTennis */;
+			targetProxy = A735DE271B0DE81300ED6042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A735DE1F1B0DE81300ED6042 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A735DE201B0DE81300ED6042 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A7987D4A1B121A890023CB0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7987D4B1B121A890023CB0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A735DE2E1B0DE81300ED6042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A735DE2F1B0DE81300ED6042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A735DE311B0DE81300ED6042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MonTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = tluquet.MonTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MonTennis/Base.lproj/MonTennis-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A735DE321B0DE81300ED6042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MonTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = tluquet.MonTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MonTennis/Base.lproj/MonTennis-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A735DE341B0DE81300ED6042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonTennisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tluquet.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonTennis.app/MonTennis";
+			};
+			name = Debug;
+		};
+		A735DE351B0DE81300ED6042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonTennisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tluquet.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonTennis.app/MonTennis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A735DE0A1B0DE81300ED6042 /* Build configuration list for PBXProject "MonTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A735DE2E1B0DE81300ED6042 /* Debug */,
+				A735DE2F1B0DE81300ED6042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A735DE301B0DE81300ED6042 /* Build configuration list for PBXNativeTarget "MonTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A735DE311B0DE81300ED6042 /* Debug */,
+				A735DE321B0DE81300ED6042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A735DE331B0DE81300ED6042 /* Build configuration list for PBXNativeTarget "MonTennisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A735DE341B0DE81300ED6042 /* Debug */,
+				A735DE351B0DE81300ED6042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A721B5521B1AB2F1006F7BB8 /* MonTennis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A721B5531B1AB2F1006F7BB8 /* MonTennis.xcdatamodel */,
+			);
+			currentVersion = A721B5531B1AB2F1006F7BB8 /* MonTennis.xcdatamodel */;
+			path = MonTennis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A735DE071B0DE81300ED6042 /* Project object */;
+}

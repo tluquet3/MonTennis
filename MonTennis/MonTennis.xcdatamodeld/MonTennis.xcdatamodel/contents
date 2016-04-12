@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Match" syncable="YES">
+        <attribute name="bonus" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="classement" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="coef" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resultat" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tournoi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wo" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Match" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
+</model>
