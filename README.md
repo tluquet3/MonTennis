@@ -3,6 +3,10 @@
 This iOS app for iphone was created in Swift as a way to discover iOS programming and to help people who play tennis in France simulate their future FFT rank.
 
 ###Description
+
+![Logo MonTennis](/MonTennis/images.xcassets/AppIcon.appiconset/Icon-Small@3x.png "Logo MonTennis")
+
+
 MonTennis permet aux joueurs et joueuses de tennis pratiquant la compétition en France de simuler leur futur classement et de gérer leur palmarès. L'application intègre les dernières normes de classement pour la saison 2015-2016.
 
 Fonctionnalités:
